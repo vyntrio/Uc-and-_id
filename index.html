@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium PUBG Items</title>
+    <style>
+        body {
+            background-color: #0a192f;
+            color: #e6f1ff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .banner {
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .tab-buttons {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .tab-btn {
+            background-color: #172a45;
+            color: #64ffda;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        .tab-btn.active {
+            background-color: #007bff;
+            color: white;
+        }
+        .tab-btn:hover {
+            background-color: #0056b3;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .product-card {
+            background-color: #172a45;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .product-image {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .product-title {
+            font-size: 16px;
+            margin: 10px 0;
+            color: #64ffda;
+            height: 40px;
+            overflow: hidden;
+        }
+        .product-price {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .buy-now {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+        .buy-now:hover {
+            background-color: #0056b3;
+        }
+        h1 {
+            text-align: center;
+            color: #64ffda;
+            margin-bottom: 30px;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.postimg.cc/6QhgC3kb/image-search-1752245026702.png" alt="Banner" class="banner">
+        <h1>PREMIUM PUBG ITEMS</h1>
+        
+        <div class="tab-buttons">
+            <button class="tab-btn active" onclick="openTab('guns')">GUNS</button>
+            <button class="tab-btn" onclick="openTab('xsuits')">X-SUITS</button>
+        </div>
+        
+        <div id="guns" class="tab-content active">
+            <div class="product-grid">
+                <!-- Gun Products -->
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/htByDmvz/image-search-1752314728781.jpg" alt="M4 GLACIER" class="product-image">
+                    <h3 class="product-title">M4 GLACIER (PERMANENT)</h3>
+                    <p class="product-price">₹999</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/bNNrKCHs/IMG-20250712-154413.png" alt="AKM GLACIER" class="product-image">
+                    <h3 class="product-title">AKM GLACIER (PERMANENT)</h3>
+                    <p class="product-price">₹899</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/85qChWNd/image-search-1752386752724.jpg" alt="UMP GLACIER" class="product-image">
+                    <h3 class="product-title">UMP GLACIER (PERMANENT)</h3>
+                    <p class="product-price">₹799</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://files.catbox.moe/qh0dks.jpg" alt="M4 LIZARD ROAR" class="product-image">
+                    <h3 class="product-title">M4 LIZARD ROAR-MAX</h3>
+                    <p class="product-price">₹699</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://files.catbox.moe/hrbaj6.jpg" alt="M4 FOOL" class="product-image">
+                    <h3 class="product-title">M4 FOOL-MAX</h3>
+                    <p class="product-price">₹699</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://files.catbox.moe/651gwy.jpg" alt="Godzilla AWM" class="product-image">
+                    <h3 class="product-title">GODZILLA AWM-MAX</h3>
+                    <p class="product-price">₹699</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://files.catbox.moe/t7ztww.jpg" alt="RYOMEN SUKUNA" class="product-image">
+                    <h3 class="product-title">RYOMEN SUKUNA GROZA-MAX</h3>
+                    <p class="product-price">₹699</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://files.catbox.moe/pfiro4.jpg" alt="CUPIT SCAR-L" class="product-image">
+                    <h3 class="product-title">CUPIT SCAR-L-MAX</h3>
+                    <p class="product-price">₹699</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://files.catbox.moe/zj54fb.jpg" alt="MOONDROP ETERNA" class="product-image">
+                    <h3 class="product-title">MOONDROP ETERNA M249-MAX</h3>
+                    <p class="product-price">₹699</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://files.catbox.moe/2qt2a2.jpg" alt="KLINGO KAR98k" class="product-image">
+                    <h3 class="product-title">KLINGO KAR98k-MAX</h3>
+                    <p class="product-price">₹699</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://files.catbox.moe/m532m8.jpg" alt="TECHNOCORE M416" class="product-image">
+                    <h3 class="product-title">TECHNOCORE M416-MAX</h3>
+                    <p class="product-price">₹699</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://files.catbox.moe/hruigh.jpg" alt="SHIMMER POWER" class="product-image">
+                    <h3 class="product-title">SHIMMER POWER UZI-MAX</h3>
+                    <p class="product-price">₹699</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://files.catbox.moe/we1eim.webp" alt="HORSE APPLE" class="product-image">
+                    <h3 class="product-title">HORSE APPLE</h3>
+                    <p class="product-price">₹699</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://files.catbox.moe/jrgfg1.jpg" alt="CLASP SCAR-L" class="product-image">
+                    <h3 class="product-title">CLASP SCAR-L-MAX</h3>
+                    <p class="product-price">₹699</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://files.catbox.moe/8xfs0s.jpg" alt="TRIDLE M416" class="product-image">
+                    <h3 class="product-title">TRIDLE M416-MAX</h3>
+                    <p class="product-price">₹699</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="xsuits" class="tab-content">
+            <div class="product-grid">
+                <!-- X-Suit Products -->
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/28N6y4Hr/image-search-1752386960239.jpg" alt="BLOOD RAVEN" class="product-image">
+                    <h3 class="product-title">BLOOD RAVEN X-SUIT</h3>
+                    <p class="product-price">₹1999</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/MpdK9gzp/image-search-1752386930979.jpg" alt="POSIDIAN" class="product-image">
+                    <h3 class="product-title">POSIDIAN X-SUIT</h3>
+                    <p class="product-price">₹1999</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/mDFL2DCP/image-search-1752386997414.jpg" alt="PHARAOH" class="product-image">
+                    <h3 class="product-title">PHARAOH X-SUIT</h3>
+                    <p class="product-price">₹1999</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/Y2Jqv1Cb/image-search-1752387062527.jpg" alt="AVALANCHE" class="product-image">
+                    <h3 class="product-title">AVALANCHE X-SUIT</h3>
+                    <p class="product-price">₹1999</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/yYHCqnd4/image-search-1752387099371.jpg" alt="SILVENUS" class="product-image">
+                    <h3 class="product-title">SILVENUS X-SUIT</h3>
+                    <p class="product-price">₹1999</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+                
+                <div class="product-card">
+                    <img src="https://i.postimg.cc/13CsG6Kg/image-search-1752388296604.jpg" alt="JOKER" class="product-image">
+                    <h3 class="product-title">JOKER X-SUIT</h3>
+                    <p class="product-price">₹1999</p>
+                    <button class="buy-now" onclick="window.location.href='uid.html'">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openTab(tabName) {
+            // Hide all tab contents
+            const tabContents = document.getElementsByClassName('tab-content');
+            for (let i = 0; i < tabContents.length; i++) {
+                tabContents[i].classList.remove('active');
+            }
+            
+            // Remove active class from all buttons
+            const tabButtons = document.getElementsByClassName('tab-btn');
+            for (let i = 0; i < tabButtons.length; i++) {
+                tabButtons[i].classList.remove('active');
+            }
+            
+            // Show the selected tab and mark its button as active
+            document.getElementById(tabName).classList.add('active');
+            event.currentTarget.classList.add('active');
+        }
+    </script>
+</body>
+</html>
